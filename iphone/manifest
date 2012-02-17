@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: My module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2012 by Your Company
+
+
+# these should not be edited
+name: tvharukazetiwebviewuseragentios
+moduleid: tv.harukaze.ti.webviewuseragent.ios
+guid: 5551d255-9388-48ef-ba71-88defb53bf43
+platform: iphone
+minsdk: 1.7.5
