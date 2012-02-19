@@ -149,7 +149,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tvharukazetiwebviewuseragentios" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -222,10 +222,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TvHarukazeTiWebviewUseragentIos_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = TvHarukazeTiWebviewUseragentIos;
-				TITANIUM_SDK = "~/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK = "/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
 			};
 			name = Debug;
 		};
@@ -239,10 +239,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TvHarukazeTiWebviewUseragentIos_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = TvHarukazeTiWebviewUseragentIos;
-				TITANIUM_SDK = "~/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK = "/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
 			};
 			name = Release;
 		};
@@ -257,7 +257,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
-				TITANIUM_SDK = "~/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK = "/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
 			};
 			name = Debug;
 		};
@@ -271,7 +271,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
-				TITANIUM_SDK = "~/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK = "/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
 			};
 			name = Release;
 		};
@@ -282,9 +282,9 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "Build & test";
-				TITANIUM_SDK = "~/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK = "/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
 			};
 			name = Debug;
 		};
@@ -294,9 +294,9 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "Build & test";
-				TITANIUM_SDK = "~/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK = "/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
 				ZERO_LINK = NO;
 			};
 			name = Release;

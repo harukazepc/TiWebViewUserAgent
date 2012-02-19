@@ -1,39 +1,52 @@
-# tvharukazetiwebviewuseragentios Module
+#TiWebViewUserAgentiOS Module
+
+tv.harukaze.ti.webview.useragent.ios
 
 ## Description
 
-TODO: Enter your module description here
+This Module  is to customize WebView's UserAgent (iOS).
 
 ## Accessing the tvharukazetiwebviewuseragentios Module
 
 To access this module from JavaScript, you would do the following:
 
-	var tvharukazetiwebviewuseragentios = require("tv.harukaze.ti.webviewuseragent.ios");
+	var module = require("tv.harukaze.ti.webviewuseragent.ios");
 
-The tvharukazetiwebviewuseragentios variable is a reference to the Module object.	
+The module variable is a reference to the Module object.	
 
 ## Reference
 
-TODO: If your module has an API, you should document
-the reference here.
 
 ### ___PROJECTNAMEASIDENTIFIER__.function
 
-TODO: This is an example of a module function.
-
 ### ___PROJECTNAMEASIDENTIFIER__.property
-
-TODO: This is an example of a module property.
 
 ## Usage
 
-TODO: Enter your usage example here
+	// open a single window
+	var window = Ti.UI.createWindow({
+		backgroundColor:'white'
+	});
+	
+	// TODO: write your module tests here
+	var tiwebviewuseragentios = require('tv.harukaze.ti.webviewuseragent.ios');
+	Ti.API.info("module is => " + tiwebviewuseragentios);
+	tiwebviewuseragentios.setWebViewUserAgent('your own user agent string');
+	
+	var webview = Ti.UI.createWebView({
+		width:'auto',height:'auto',
+		url:'http://env.harukaze.tv/'
+	});
+	
+	window.add(webview);
+	window.open()
+	
 
 ## Author
 
-TODO: Enter your author name, email and other contact
-details you want to share here. 
+Tomoya Narita (@harukazepc)
+<sphone@harukaze.tv>
 
 ## License
 
-TODO: Enter your license/legal information here.
+MIT License
