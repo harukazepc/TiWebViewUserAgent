@@ -2,7 +2,8 @@ TiWebViewUserAgentAndroid
 ===========================================
 
 This Module  is to customize WebView's UserAgent (Android).
-*) Since Titanium Mobile SDK 1.8, it is recommended to using Ti.UI.WebView#setUserAgent().
+
+**Since Titanium Mobile SDK 1.8, it is recommended to using Ti.UI.WebView#setUserAgent().**
 
 HOW TO USE IT
 -----------------------------
@@ -28,10 +29,9 @@ HOW TO USE IT
 	window.add(webView);
 	window.open();
 	
-NOTICE
-------
+###NOTICE
 
-You must set your UserAgent String before showing a Ti.UI.WebView object at your Window.
+**You must set your UserAgent String before showing a Ti.UI.WebView object at your Window.**
 
 
 QUICK INSTALL TiWebViewUserAgentAndroid
@@ -69,7 +69,7 @@ LICENSE
 ---------------------
 MIT License
 
-Copyright 2012 Tomoya Narita 
-http://harukaze.tv/
-http://d.hatena.ne.jp/harukazepc/
-Twitter: @harukazepc
+Copyright 2012 Tomoya Narita  
+http://harukaze.tv/  
+http://d.hatena.ne.jp/harukazepc/  
+Twitter: @harukazepc  

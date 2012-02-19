@@ -38,16 +38,15 @@ For example,
 	var my_module = require('tv.harukaze.ti.webview.useragent.ios');
 	my_module.setWebViewUserAgent('your own user agent string');
 
-NOTICE
-------
+###NOTICE
 
-You must set your UserAgent String before creating a Ti.UI.WebView object.
+**You must set your UserAgent String before showing a Ti.UI.WebView object at your Window.**
 
 LICENSE
 ---------------------
 MIT License
 
-Copyright 2012 Tomoya Narita 
-http://harukaze.tv/
-http://d.hatena.ne.jp/harukazepc/
+Copyright 2012 Tomoya Narita   
+http://harukaze.tv/  
+http://d.hatena.ne.jp/harukazepc/  
 Twitter: @harukazepc

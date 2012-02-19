@@ -44,10 +44,16 @@ The module variable is a reference to the Module object.
 	window.open();
 	
 
+###NOTICE
+
+**You must set your UserAgent String before showing a Ti.UI.WebView object at your Window.**
+
 ## Author
 
-Tomoya Narita (@harukazepc)
-<sphone@harukaze.tv>
+Copyright 2012 Tomoya Narita   
+http://harukaze.tv/  
+http://d.hatena.ne.jp/harukazepc/  
+Twitter: @harukazepc  
 
 ## License
 
